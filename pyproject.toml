@@ -1,0 +1,23 @@
+[project]
+name = "rag-system"
+version = "0.1.0"
+description = "RAG-based culinary assistant QA system"
+requires-python = ">=3.10"
+dependencies = [
+    "openai>=1.0.0",
+    "tqdm>=4.0.0",
+    "numpy>=1.0.0",
+]
+
+[project.optional-dependencies]
+qwen = [
+    "transformers>=4.0.0",
+    "torch>=2.0.0",
+]
+
+[tool.ruff]
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I"]
+ignore = []

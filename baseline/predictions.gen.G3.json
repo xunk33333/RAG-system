@@ -2,10 +2,10 @@
   {
     "id": "001",
     "question": "According to the overview of East Asian cuisine, what are the common ingredients used in the preparation of dishes across this region?",
-    "answer": "Common ingredients used in the preparation of dishes across East Asian cuisine include rice, ginger, garlic, sesame seeds, chilies, dried onions, soy, and tofu. Stir-frying, steaming, and deep-frying are common cooking methods. Additionally, curry is another popular method.",
+    "answer": "Conclusion: Key details: Common ingredients used in East Asian cuisine include rice, ginger, garlic, sesame seeds, chilies, dried onions, soy, and tofu. Stir-frying, steaming, and deep-frying are common cooking methods. Common ingredients in Southeast Asian cuisine include rice, ginger, garlic, sesame seeds, chilies, dried onions, soy, and tofu. Curry is also a common cooking method. Similar ingredients include century egg, salted duck egg, Chinese cabbage, shiitake, gai lan, red bean, hoisin sauce, Chinese sausage, dried shrimp, dried scallop, jujube, lotus Key details: evidence from [baseline_chunk_965].",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -60,10 +60,10 @@
   {
     "id": "002",
     "question": "What factors contribute to the distinctiveness of various Chinese regional cuisines?",
-    "answer": "The distinctiveness of various Chinese regional cuisines is influenced by factors like availability of resources, climate, geography, history, cooking techniques, and lifestyle. Additionally, regional preferences for seasoning and cooking techniques are influenced by social class, religion, historical background, and ethnic groups. Geographic features, such as mountainous regions, riverine areas, and desert climates, play a significant role in local ingredients and cooking practices.",
+    "answer": "Conclusion: Key details:\n- Regional diversity among Chinese cuisines\n- Factors contributing to regional diversity include availability of resources, climate, geography, history, cooking techniques, and lifestyle\n- Some styles are distinctive compared to others, with differences influenced by factors like seasonality, local ingredients, and culinary traditions\n- Seasoning and cooking techniques vary based on social class, religion, historical background, and ethnic group\n- Geographic features play a significant role in local ingredients, affecting cuisine classification and regional diversity Key details: evidence from [baseline_chunk_735].",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -118,10 +118,10 @@
   {
     "id": "003",
     "question": "Which specific region is Anhui cuisine derived from, and what is its alternative name?",
-    "answer": "Anhui cuisine is derived from the native cooking styles of the Huangshan Mountains region in China and is similar to Jiangsu cuisine. It is known for the use of wild herbs, from both land and sea, and simple methods of preparation.",
+    "answer": "Conclusion: Key details: \n- Anhui cuisine is derived from the native cooking styles of the Huangshan region in southern Anhui Province.\n- It is also derived from the native cooking styles of the Huangshan Mountains region in China.\n- The cuisine is similar to Jiangsu cuisine.\n- Anhui cuisine uses wild herbs, from both land and sea, and simple methods of preparation.\n- Braising and stewing are common cooking techniques.\n- Frying and stir-frying are used much less frequently in Anhui cuisine than in other Chinese culinary traditions.\n- Anhui cuisine consists of three styles: the Yangtze River Key details: evidence from [baseline_chunk_209].",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -176,10 +176,10 @@
   {
     "id": "004",
     "question": "What is the primary focus of Hakka cuisine in terms of food quality, and what are some hallmark 'texturized' contributions to their palate?",
-    "answer": "The primary focus of Hakka cuisine in terms of food quality is on the texture of food, particularly emphasizing texturized contributions to the palate. Key hallmark 'texturized' contributions include preserved meats like preserved vegetables (梅菜) and stewed, braised, roasted meats, as well as braised vegetables (肉骨). These elements contribute to the dish's appeal and authenticity within Hakka cuisine.",
+    "answer": "Conclusion: Key details:\n- Hakka cuisine focuses on texturized contributions to the palate.\n- Preservation meats are common in Hakka cuisine.\n- Vegetables are emphasized in Hakka cuisine.\n- Hakka cuisine is characterized by simplicity and tastiness.\n- Hakka cuisine is garnished lightly with flavorings.\n- Modern Hakka cuisine emphasizes offal, such as deep-fried dishes like deep-fried fish.\n- Hakka cuisine is popular in Hong Kong, influenced by Fujian cuisine, Hokkien cuisine, and ethnic minority cuisines. Key details: evidence from [baseline_chunk_2171].",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -234,10 +234,10 @@
   {
     "id": "005",
     "question": "Describe the unique sourness found in Guizhou cuisine. How does it differ from Northern Chinese cuisines in terms of salt usage?",
-    "answer": "Guizhou cuisine's unique sourness is derived from the local tradition of fermenting vegetables or grains, rather than using vinegar products. This contrasts with Northern Chinese cuisines where salt is often used extensively due to its salty taste.",
+    "answer": "Conclusion: Guizhou cuisine's unique sourness is derived from the local tradition of fermenting vegetables or grains, rather than using vinegar products. This contrasts with Northern Chinese cuisines where salt is often used extensively due to their preference for salty flavors. The sourness in Guizhou cuisine is distinct and contributes to its distinctive taste profile.",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -292,10 +292,10 @@
   {
     "id": "006",
     "question": "What is the core technique to achieve crispiness in Tempura batter according to the recipe?",
-    "answer": "The core technique to achieve crispiness in Tempura batter according to the recipe is to use a combination of wetting the batter with water and dryness with flour. This ensures that the batter forms a smooth, crispy texture when fried.",
+    "answer": "Conclusion: The key technique to achieve crispness in Tempura batter is to use a combination of wetting the batter with water and dry ingredients such as flour. This ensures that the batter remains sticky enough for frying while also providing sufficient moisture to prevent sticking. Key details: evidence from [baseline_chunk_6952].",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -350,10 +350,10 @@
   {
     "id": "007",
     "question": "In Chiuchow cuisine, what is 'Tieguanyin' and how is it traditionally served?",
-    "answer": "Tieguanyin is a type of oolong tea in Chiuchow cuisine that is traditionally served in small cups before and after meals. It is presented as gongfu tea and has a thickly bittersweet taste, colloquially known as gam gam (甘甘; gān gān).",
+    "answer": "Conclusion: Tieguanyin is a type of oolong tea that is traditionally served in small cups before and after meals at authentic Teochew restaurants in China. It is presented as gongfu tea, characterized by its thick, bitter taste known as gam gam (甘甘).\n\nKey details:\n- Authentic Teochew restaurants serve Tieguanyin in very small cups.\n- The tea is presented as gongfu tea.\n- The taste is described as having a thickly bittersweet flavor, colloquially known as gam gam (甘甘).",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -408,10 +408,10 @@
   {
     "id": "008",
     "question": "What are the necessary ingredients to prepare 'Taro Fish' as per the vegetarian recipe provided?",
-    "answer": "To prepare 'Taro Fish', you will need:\n\n- 1 small taro root\n- 2 sheets nori\n- 1 tsp preserved black beans\n- 2-inch piece of ginger\n- 1 green pepper\n- 2 spring onions\n- 1 tsp vegetable stock powder\n- 2 tbsp Shaoxing rice wine\n- Vegetable oil\n\nThe Nori sheet should be cut at one end to resemble fish fins. The taro can be steam cooked until soft, then sliced and rolled onto nori sheets. The nori sheets should be soaked in water to join them together. The taro mixture",
+    "answer": "Conclusion: To prepare 'Taro Fish', you will need the following ingredients:\n\n- 1 small taro root\n- 2 sheets nori\n- 1 tsp preserved black beans\n- 2-inch piece of ginger\n- 1 green pepper\n- 2 spring onions\n- 1 tsp vegetable stock powder\n- 2 tbsp Shaoxing rice wine\n- Vegetable oil\n\nThese ingredients can be cut from fresh taro roots, nori sheets, and other vegetables. Key details: evidence from [baseline_chunk_6715].",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -466,10 +466,10 @@
   {
     "id": "009",
     "question": "Explain the significance of 'Lei Cha' in Hakka-Hopo families and its role in family relationships.",
-    "answer": "The significance of 'lei cha' lies in its unique combination of vegetables and beans, making it a versatile and nutritious dish that has gained popularity in multicultural societies. It represents a fusion of traditional Hakka-Hopo culinary traditions with modern Western ingredients, reflecting the blending of Eastern and Western cultures.",
+    "answer": "Conclusion: Lei Cha (擂茶; léi chá) is significant in Hakka-Hopo families due to its unique combination of vegetables and beans, which are staples in many traditional meals. It has gained popularity in multicultural countries like Malaysia, where it is often served alongside rice and vegetarian sides. The practice of hosting a Cha Gordo (擂茶会) every week is common among Hakka families, reflecting their cultural emphasis on communal dining and shared experiences.",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -524,10 +524,10 @@
   {
     "id": "010",
     "question": "What temperature should the oil reach for deep-frying Tempura, and why is ice-cold water used in the batter?",
-    "answer": "The oil should reach 340–350°F (~171–176°C). Ice-cold water is used to prevent the batter from becoming too sticky during cooking.",
+    "answer": "Conclusion: The oil should be heated to 340–350°F (~171–176°C). Ice-cold water is used to prevent the batter from becoming too sticky and oily during the battering process.",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -582,10 +582,10 @@
   {
     "id": "011",
     "question": "What is the literal translation of 'Char Siu', and which Chinese province does it originate from?",
-    "answer": "The literal translation of 'Char Siu' is '叉烧'. It originates from Guangdong Province in China.",
+    "answer": "Conclusion: ### Conclusion:\nThe literal translation of 'Char Siu' is '叉烧'. It originates from Guangdong Province in China.\n\nKey details:\n- Origin: Guangdong\n- Cuisine: Cantonese-style barbecued pork\n- Classification: Siu Mei (烧味)\n- Main ingredients: Pork shoulder cut\n- Seasoning: Maltose, Chinese rose wine, Five-spice powder, and other ingredients\n- Pairings: Cold cuts, rice, or stuffed in siopao\n- Traditional fillings: Cheong fun as (叉烧包) or cheung fun as (叉烧饭)\n- Symbol Key details: evidence from [baseline_chunk_984].",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -640,10 +640,10 @@
   {
     "id": "012",
     "question": "What are 'Abacus seeds' in Hakka cuisine made of, and what is their texture after cooking?",
-    "answer": "Abacus seeds in Hakka cuisine are made of dough formed from tapioca and yam, cut into abacus bead shapes, which are soft on the outside and chewy on the inside. After cooking, they are typically stir-fried with minced chicken or pork, dried shrimps, mushrooms, and various vegetables.",
+    "answer": "Conclusion: Abacus seeds in Hakka cuisine are made of dough formed from tapioca and yam, cut into abacus bead shapes, which are soft on the outside and chewy on the inside. They may be cooked with minced chicken or pork, dried shrimps, mushrooms, and various vegetables. Stir-fried, seasoned with light soy sauce, salt, sugar, and rice wine or vinegar, they are typically served with rice or noodles. The texture of these seeds can vary depending on the method of preparation; some may be crisp while others might be softer.",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -698,10 +698,10 @@
   {
     "id": "013",
     "question": "Describe the preparation of 'Dongjiang salt-baked chicken' in modern restaurants compared to its traditional method.",
-    "answer": "The preparation of Dongjiang salt-baked chicken in modern restaurants involves covering it with a salty mixture before steaming or baking it in an oven. In contrast, traditional methods typically involve baking in a heap of hot salt. Modern restaurants often prepare this dish using either brine or a salty mixture before steaming or baking it.",
+    "answer": "Conclusion: Modern restaurants prepare Dongjiang salt-baked chicken using either brine or a salty mixture before steaming or baking it. In contrast, traditional methods involve baking in a heap of hot salt or covering it with a salty mixture before steaming or baking it in an oven. The term \"Dongjiang\" refers to the Dong River, which is located in eastern Guangdong Province. The dish is popular in the Hakka heartlands. \n\nKey details:\n- Preparation method varies between modern and traditional restaurants.\n- Traditional methods typically involve baking in a heap of hot salt or a salty mixture before steaming or baking.\n- Modern restaurants",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -756,10 +756,10 @@
   {
     "id": "014",
     "question": "What is 'Houttuynia' (折耳根) and how is it used in Guizhou cuisine?",
-    "answer": "Houttuynia (折耳根/鱼腥草; 折耳根/魚腥草; zhéěrgēn/yúxīng cǎo) is a unique ingredient used in Guizhou dipping sauce, which is essential for daily dining.",
+    "answer": "Conclusion: Key details:\n- Houttuynia (折耳根/鱼腥草; 折耳根/魚腥草; zhéěngēn/yúxīng cǎo)\n - A unique ingredient used in Guizhou dipping sauce\n - Popular among local people but not widely accepted by others\n\nConclusion:\nHouttuynia (折耳根/鱼腥草; 折耳根/魚腥草; zhéěngēn/yúxīng cǎo) is a unique ingredient used in Guizhou dipping sauce, making it popular among local people but not Key details: evidence from [baseline_chunk_2145].",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -814,10 +814,10 @@
   {
     "id": "015",
     "question": "According to the 'Cream Cheese Wontons' recipe, what is the specific recommendation to prevent the triangles from bursting while frying?",
-    "answer": "To prevent the triangles from bursting while frying, it's recommended to use wet fingers to fold the other half down and seal the edges tightly, leaving small gaps at the corners to allow them to expand without bursting.",
+    "answer": "Conclusion: Key details:\n- The recommended method involves folding the dough inward towards the center and sealing with a pinch of filling.\n\nConclusion: To prevent the triangles from bursting while frying, fold the dough inward towards the center and seal with a pinch of filling. Key details: evidence from [baseline_chunk_6413].",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -872,10 +872,10 @@
   {
     "id": "016",
     "question": "What distinguishes Teochew 'mue' (congee) from its Cantonese counterpart?",
-    "answer": "The Teochew mue differs from the Cantonese version in its watery texture due to the presence of oysters and minced pork in the teochew version.",
+    "answer": "Conclusion: Teochew 'mue' (congee) differs from Cantonese counterparts due to its watery texture, which is caused by the loose rice at the bottom of the bowl. This contrasts with the thicker consistency of Cantonese congee, which is typically a thinner gruel.",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -930,10 +930,10 @@
   {
     "id": "017",
     "question": "What are the common dipping sauce ingredients for Guizhou people, and what is the 'crucial' element in their daily dining?",
-    "answer": "The common dipping sauce ingredients for Guizhou people include chili pepper, garlic, ginger, green scallion, and sesame oil or soy sauce. The \"crucial\" element in their daily dining is the use of Houttuynia (折耳根/鱼腥草; 折耳根/魚腥草; zhéěrgēn/yúxīng cǎo).",
+    "answer": "Conclusion: ### Common Dipping Sauce Ingredients for Guizhou People\nThe common dipping sauce ingredients for Guizhou people include:\n\n1. **Soy Sauce** - A key component in Guizhou's traditional dishes.\n2. **Black Bean Paste** - Often used in stir-fries and soups.\n3. **Peanut Sauce** - Adds a nutty flavor to dishes.\n4. **Plum Sauce** - A sweet and tangy sauce often used in soups.\n5. **Black Vinegar and Shredded Ginger** - Used in various dishes like fish in sour soup.\n6. **Houttuyn Key details: evidence from [baseline_chunk_2145].",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -988,10 +988,10 @@
   {
     "id": "018",
     "question": "In the context of Hakka cuisine in South Asia, why is Indian-Chinese food often referred to as 'Hakka'?",
-    "answer": "The term \"Hakka cuisine\" is used to describe the cooking style of the Hakka people, particularly those living in China's coastal regions. This cuisine is characterized by its emphasis on preserving meat, stewing, braising, and roasting meats, while preserving vegetables like mélange (梅菜). The dish \"chili chicken\" and \"Dongbei (northeastern) chow mein/hakka noodles\" are typical examples of this cuisine. These dishes are often served at restaurants owned by Hakka individuals and are widely recognized as representing the Hakka culinary heritage.",
+    "answer": "Conclusion: In South Asia, Indian-Chinese food is often referred to as \"Hakka\" because it is predominantly Indian Chinese cuisine and is associated with Hakka origins in India and Pakistan. This culinary style is popular in these regions and can be mistaken for representing the entire Hakka cuisine.",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -1046,10 +1046,10 @@
   {
     "id": "019",
     "question": "Explain the difference between 'Hu-la', 'Ciba-la', and 'Zao-la' in Guizhou cuisine.",
-    "answer": "The main differences between Hu-la, Ciba-la, and Zao-la in Guizhou cuisine are:\n\n- Hu-la uses heat-dried chili pepper for spiciness.\n- Ciba-la combines cooked chili pepper paste with simmered chili sauce.\n- Zao-la preserves minced chili pepper with ginger and garlic, resulting in a more complex flavor profile.",
+    "answer": "Conclusion: Key details:\n- Hu-la (糊辣): Heat-dried chili pepper used for spiciness.\n- Ciba-la (糍粑辣): Both uncooked chili paste and chili sauce simmered in oil.\n- Zao-la (糟辣): Made by preserving minced chili pepper with ginger and garlic.\n\nConclusion:\nThe main differences between Hu-la, Ciba-la, and Zao-la in Guizhou cuisine are:\n\n1. **Heat Drying**: Hu-la uses heat-dried chili pepper, while Ciba-la involves simmering chili paste in oil, and Zao-la preserves minced chili pepper with ginger and garlic.\n\n2 Key details: evidence from [baseline_chunk_2147].",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -1104,10 +1104,10 @@
   {
     "id": "020",
     "question": "What etiquette rules regarding liquids and noise should be followed during a Teochew 'jiat dot' feast?",
-    "answer": "Teochew 'jiat dot' feast etiquette involves observing good manners such as being refined, composed, handling tableware gently, avoiding liquid spills, making loud noises, and not gnawing bone loudly.",
+    "answer": "Conclusion: The key etiquette rules regarding liquids and noise during a Teochew 'jiat dot' feast are:\n\n- Avoid letting liquids spill at the table.\n- Do not make noises while eating.\n- Do not gnaw bones loudly.\n\nKey details:\n- In Chaozhou cuisine, these rules apply to both liquid spills and bone gnawing.\n- In Chiuchow cuisine, similar rules apply but with specific dishes like shark fin soup and bird's nest soup being excluded from this rule.\n- In Korean cuisine, there are additional guidelines about sharing communal side dishes and covering spoons after meals.",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -1162,10 +1162,10 @@
   {
     "id": "021",
     "question": "How should shrimp be prepared for Tempura to prevent them from curling during frying?",
-    "answer": "To prevent shrimp from curling during frying, score them a few times crosswise on the underside, skewer them before cooking, and remove the skewers before serving. For roll-shaped daifuku, dip it briefly in batter and fry until brown.",
+    "answer": "Conclusion: To prevent shrimp from curling during frying, score them a few times crosswise on the underside, skewer them before cooking, and optionally add 1 tablespoon of cornstarch in the batter. For rolls, dip shrimp briefly in batter and fry until brown.",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -1220,10 +1220,10 @@
   {
     "id": "022",
     "question": "What is 'siang teng' in Teochew cooking and how is it traditionally maintained?",
-    "answer": "Siang Teng is a traditional Teochew soup made with fish sauce, soy sauce, ginger, garlic, and various herbs. It is typically served hot and is prepared by simmering the ingredients over low heat until they become thick and flavorful. The soup is kept on the stove and replenished periodically to maintain its consistency.",
+    "answer": "Conclusion: Key details:\n- Siang teng (上汤; 上湯; shàngtāng) is a traditional Teochew stock made from fresh fish, vegetables, and herbs.\n- It is typically prepared on a pot over low heat and replenished periodically.\n- In popular media, some Hong Kong chefs reportedly use this stock for decades.\n- The stock is commonly served poached, steamed, and braised, alongside other dishes like congee (糜; mí).\n- Teochew cuisine is renowned for its seafood and vegetarian dishes, which are often light and delicate compared to many other Chinese cuisines.\n- Oil is not Key details: evidence from [baseline_chunk_1997].",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -1278,10 +1278,10 @@
   {
     "id": "023",
     "question": "What ingredients are used to join nori sheets together when making 'Taro Fish'?",
-    "answer": "Nori sheets contain taro, black beans, taro mixture, green pepper, ginger, spring onions, shaoxing wine, black beans, taro fish fin slices, nori band ends, umeboshi, canned tuna, cooked salmon, cooked egg, katsuobushi, and mayonnaise.",
+    "answer": "Conclusion: Key details:\n- Nori sheets\n- Umeboshi (pickled plums)\n- Canned tuna\n- Mayonnaise\n- Soy sauce\n- Chilies\n\nConclusion: Ingredients used to join nori sheets together when making 'Taro Fish': Nori sheets, Umeboshi (pickled plums), canned tuna, mayonnaise, soy sauce, and chilies. Key details: evidence from [baseline_chunk_6716].",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -1336,10 +1336,10 @@
   {
     "id": "024",
     "question": "What is the primary ingredient of 'Yong tau foo' and what are its traditional fillings?",
-    "answer": "The primary ingredient of 'Yong tau foo' is tofu cubes heaped with minced meat (usually pork). The traditional fillings include pork, shrimp, and other meats.",
+    "answer": "Conclusion: The primary ingredient of Yong tau foo is tofu cubes. Its traditional fillings include minced meat (usually pork), salted fish, and herbs. Key details: evidence from [baseline_chunk_2191].",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -1394,10 +1394,10 @@
   {
     "id": "025",
     "question": "According to the Guizhou recipe, what are the components of 'sour soup broth'?",
-    "answer": "The components of 'sour soup broth' according to the Guizhou recipe include:\n\n- Rice\n- Rice wine\n- Wild tomatoes\n- Red pepper\n- Garlic\n- Ginger\n- Sesame oil\n- Water",
+    "answer": "Conclusion: Key details:\n- Sour soup broth (酸汤; 酸湯; suān tāng)\n- Fermented vegetables (青菜; 醈菜; jīnlěi)\n- Rice wine (酒糟; 酒糟; jiècáo)\n\nConclusion: The key ingredients of 'sour soup broth' include rice, rice wine, wild tomatoes, red pepper, garlic, and ginger. Key details: evidence from [baseline_chunk_2144].",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -1452,10 +1452,10 @@
   {
     "id": "026",
     "question": "What is the 'sweet version' of Hakka tea fruit buns filled with?",
-    "answer": "The sweet version of Hakka tea fruit buns filled with sweetened black-eyed pea paste or Chaozhou water chestnut syrup is typically served with ginkgo nuts.",
+    "answer": "Conclusion: Key details:\nThe sweet version of Hakka tea fruit buns filled with sweetened black-eyed pea paste or coconut cream is typically served with ginkgo nuts.\n\nConclusion: The sweet version of Hakka tea fruit buns filled with sweetened black-eyed pea paste or coconut cream is typically served with ginkgo nuts. Key details: evidence from [baseline_chunk_2179].",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -1510,10 +1510,10 @@
   {
     "id": "027",
     "question": "What is 'shacha sauce' made of, and which cuisines is it commonly associated with?",
-    "answer": "### Shacha Sauce\nShacha sauce, also known as sandai sauce, is a traditional condiment in Fujian and Taiwanese cuisine. It's made from soybean oil, garlic, shallots, chilies, brill fish, and dried shrimp. The paste has a savory and slightly spicy flavor. Common uses include as a base for soups, rub for barbecued meats, and garnish.",
+    "answer": "Conclusion: Key details:\n- Shacha sauce (沙茶酱; 沙茶醬; shāchá jiàng)\n - Made from soybean oil, garlic, shallots, chilies, brill fish and dried shrimp.\n - Savory and slightly spicy taste.\n - Commonly associated with cuisine of Teochew groups in Fujian and Taiwan.\n- Tahini-based sauces (تahiiniyya)\n - Common in Middle Eastern restaurants.\n - Used as a side dish or garnish.\n - Typically includes lemon juice, salt, and garlic.\n - Thinned with water.\n - Popular toppings Key details: evidence from [baseline_chunk_2068].",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -1568,10 +1568,10 @@
   {
     "id": "028",
     "question": "In the Cream Cheese Wonton recipe, how much cream cheese should be used for smaller wonton wrappers versus larger egg roll wrappers?",
-    "answer": "For smaller egg roll wrappers, use approximately 1/8 cup of cream cheese; for larger egg roll wrappers, use 1/4 cup.",
+    "answer": "Conclusion: Key details:\n- For smaller won Ton wrappers, 1 cup cream cheese is recommended.\n- For larger egg roll wrappers, 16 or 24 wrappers are suggested.\n\nConclusion: \nThe key details are:\n- For smaller won Ton wrappers, 1 cup cream cheese is recommended.\n- For larger egg roll wrappers, 16 or 24 wrappers are suggested. Key details: evidence from [baseline_chunk_6411].",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -1626,10 +1626,10 @@
   {
     "id": "029",
     "question": "Which specific Japanese city is mentioned as a place where Hakka restaurants used to be located in Thailand?",
-    "answer": "Yaowarat, a Chinatown in Bangkok, is the specific Japanese city mentioned as a place where Hakka restaurants were historically located in Thailand.",
+    "answer": "Conclusion: Bangkok, Thailand.\nKey details: Bangkok's Chinatown is Yaowarat and includes nearby areas like Sampheng, Charoen Chai, Charoen Krung, Suan Mali, Phlapphla Chai or 22 July Circle. In the past, many Hakka restaurants were located in Suan Mali near Bangkok Metropolitan Administration General Hospital. However, they have since moved into other locations, such as Talad Phlu, another Chinatown area.",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -1684,10 +1684,10 @@
   {
     "id": "030",
     "question": "What is 'cui-shao' in Guizhou cuisine and how is it typically used?",
-    "answer": "Cui-shao is a type of spiced Cantonese honey roast pork, often referred to as char siu or char siew in American cuisine. It is popular in both Guizhou and Shaanxi cuisines.",
+    "answer": "Conclusion: Key details: \n- Cui-shao is a type of spiced Cantonese honey roast pork.\n- It is often referred to as \"char siu\" or \"char siew.\"\n- It is popular in Guizhou cuisine and can be eaten alone or used as an ingredient in other dishes like cha shao bao (pork buns) or noodle dishes.\n- Guizhou cuisine has a distinct sour-sweet flavor profile, differentiating it from traditional Sichuan and Hunan cuisines.\n- The use of ingredients with strong aromas is prohibited in Guizhou cuisine.\n- A unique ingredient used Key details: evidence from [baseline_chunk_6517].",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -1742,10 +1742,10 @@
   {
     "id": "031",
     "question": "Describe the process of making 'zi ba' (Steamed sticky rice pastry) in Hakka cuisine.",
-    "answer": "To make steamed sticky rice pastry (zi bā), ground glutinous rice is mixed with water, sugar, and yeast, resulting in a sticky dough. Stirring with a bamboo stick and pounding with a pestle enhances the stickiness. After steaming, the dough is shaped into small pieces and coated with sweet peanut powder for a sweet taste.",
+    "answer": "Conclusion: Steamed sticky rice pastry (zi bā) is prepared by first grinding glutinous rice into a paste, which is then steamed. After steaming, the dough is stirred with a bamboo stick and pounded with a pestle to enhance its stickiness. Once completed, the mochi is shaped into small pieces and coated with sweet peanut powder.\n\nKey details:\n- Steamed sticky rice pastry (zi bā)\n- Ground glutinous rice into a paste\n- Steamed dough\n- Stirred and pounded dough\n- Sweet peanut powder coating\n\nUncertainty: Some sources mention steaming without specifying the exact method, while",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -1800,10 +1800,10 @@
   {
     "id": "032",
     "question": "Identify the 'Four Famous Dishes' of Hainan province as described in the text, and specify which one is traditionally paired with 'chicken rice'.",
-    "answer": "The 'Four Famous Dishes' of Hainan province include Dongshan lamb, Hainan rice noodles, fried rice with egg and zao-la, and sour soup fish. Fried rice with egg and zao-la is traditionally paired with 'chicken rice'.",
+    "answer": "Conclusion: Key details:\n- Dongshan lamb - traditional pairing with chicken rice\n- Hainan rice noodles - traditional pairing with sour soup fish\n\nConclusion: \nThe 'Four Famous Dishes' of Hainan province include Dongshan lamb and Hainan rice noodles. Both dishes are traditionally paired with chicken rice. Key details: evidence from [baseline_chunk_2155].",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -1858,10 +1858,10 @@
   {
     "id": "033",
     "question": "In Guizhou cuisine, what are the steps to make pickled vegetables (yancai)?",
-    "answer": "To make pickled vegetables (yancai) in Guizhou cuisine, follow these steps:\n\n1. Clean fresh vegetables thoroughly.\n2. Drying them in clean, dry places before sealing them in containers.\n3. Salting them until they become salty.\n4. Fermenting them for a period of four to five days.\n5. Serving them with wheat and rice.",
+    "answer": "Conclusion: To make pickled vegetables (yancai), follow these steps:\n\n1. Clean fresh vegetables thoroughly.\n2. Drying them without exposing them to sunlight.\n3. Salting them until they become salty.\n4. Sealing them in containers for four or five days.\n5. Fermenting them for at least one week to create the sour taste.\n\nKey details:\n- Fresh vegetables are dried before pickling.\n- Salt is added during the drying process.\n- Containers are sealed for fermentation.\n- Fermentation typically lasts for several weeks.\n- Tianjin preserved vegetable is often used for soups and fish dishes.",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -1916,10 +1916,10 @@
   {
     "id": "034",
     "question": "Why did 'jiat dot' feasts stop serving shark fin and bird's nest soup?",
-    "answer": "Due to legal and environmental considerations, jiat dot no longer serves shark fin soup and bird's nest soup.",
+    "answer": "Conclusion: Key details:\n- Jiat dot, a Teochew feast, ceased serving shark fin soup and bird's nest soup due to legal and environmental considerations.\n- Shark fin soup and bird's nest soup were once popular dishes in Cantonese cuisine but have been reduced due to concerns about shark population decline.\n- Certain Cantonese delicacies, including shark fins, raise ethical and environmental issues related to their consumption.\n- The practice of consuming shark fin soup dates back to the Song dynasty and became ingrained in Cantonese food culture and Chinese food culture.\n- The continued spread of the idea that shark cartilage can cure cancer has led to decreased shark Key details: evidence from [baseline_chunk_1999].",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -1974,10 +1974,10 @@
   {
     "id": "035",
     "question": "What oil is recommended as working best for Cream Cheese Wontons?",
-    "answer": "The oil recommended for Cream Cheese Wontons is vegetable oil or peanut oil.",
+    "answer": "Conclusion: Olive oil is recommended as working best for Cream Cheese Wontons because it provides a rich flavor and helps prevent the wontons from bursting due to their small size. Olive oil also has a neutral taste that complements the creamy filling without overpowering it.",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -2032,10 +2032,10 @@
   {
     "id": "036",
     "question": "How is 'fried pork with fermented tofu' prepared for Lunar New Year in Hakka traditions?",
-    "answer": "Fried pork with fermented tofu is prepared by marinating pork in vinegar, then deep frying it until it turns golden brown. The pork is then stewed with water and wood's ear fungus.",
+    "answer": "Conclusion: Fried pork with fermented tofu is prepared by marinating pork, deep frying it, stewing it with water and wood's ear fungus, and serving it with soy sauce, rice vinegar, and other seasonings.",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -2090,10 +2090,10 @@
   {
     "id": "037",
     "question": "What is 'da laang' and when is it typically consumed?",
-    "answer": "Da laang is a traditional East Asian dish made from bamboo shoots. It's typically consumed during meals, especially at breakfast.",
+    "answer": "Conclusion: Key details:\n- Da laang is a type of bamboo shoot.\n- It's traditionally consumed in various Southeast Asian cuisines.\n- Common dishes include:\n - Ginatan da laang (coconut milk and chili)\n - Dinengdeng da laang (fish bagoong and stew)\n - Paklay da laang (fried or fresh lumpia)\n - Sauté da laang (sauteed alone or with other ingredients)\n\nConclusion:\nDa laang is a type of bamboo shoot that is commonly consumed in various Southeast Asian cuisines. It can be prepared in various ways, including sauté Key details: evidence from [baseline_chunk_1243].",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -2148,10 +2148,10 @@
   {
     "id": "038",
     "question": "In the Taro Fish recipe, how should the nori be cut to resemble a fish?",
-    "answer": "To resemble a fish, cut the nori at one end to resemble fish fins.",
+    "answer": "Conclusion: In the Taro Fish recipe, the nori should be cut at one end to resemble fish fins. The key detail is \"one end\" to resemble fish fins.",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -2206,10 +2206,10 @@
   {
     "id": "039",
     "question": "What is the meaning of 'son panˇ ziiˋ' and what are the main ingredients of its dough?",
-    "answer": "The phrase \"son panˇ ziiˋ\" likely refers to a traditional Chinese dish that combines elements of both Manchu and Fujian cuisines. The main ingredients include:\n\n- Suān Tangzi (酸汤子): A sour soup with fermented corn flour.\n- Di San Xian (stir-fried eggplant, potato and green pepper)\n- Manchu sausage\n- Lüdagun (steamed roll made of bean flour)\n- Niushe Bing (牛舌饼; 牛舌餅; níushé bǐng; a type of cake)\n\nThese ingredients are typical components of Manchu",
+    "answer": "Conclusion: The term 'son panˇ ziiˋ' likely refers to a traditional Chinese noodle soup dish. The key ingredients include:\n\n- Sour soup with fermented corn flour (suān tangzi)\n- Stir-fried eggplant, potato and green pepper (di san xian)\n- Manchu sausage (nìuchē bǐng)\n- Lüdagun (steamed roll)\n- Niushe bing (cake)\n\nThese ingredients are common in various cuisines including Manchuria, Fujian, and Shandong, reflecting their rich culinary traditions. Key details: evidence from [baseline_chunk_2274].",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -2264,10 +2264,10 @@
   {
     "id": "040",
     "question": "What is the 'ancient local saying' in Guizhou regarding their sour dishes?",
-    "answer": "The ancient local saying in Guizhou regarding their sour dishes is \"Without eating a sour dish for three days, people will stagger with weak legs.\" This reflects how Guizhou people love local dishes with a sour taste. The combination of sour and spicy flavors is also found in Hunan cuisine.",
+    "answer": "Conclusion: Key details:\n- Ancient local saying: Without eating a sour dish for three days, people will stagger with weak legs.\n- Sour and spicy flavors are found in Guizhou cuisine.\n- Representative sour soup broth: Suān tāng (酸汤).\n- Unique sourness in Guizhou cuisine: Fermentation of vegetables or grains, not vinegar products.\n- Western Hunan style: Originating from Zhangjiajie, Jishou, and Huaihua, preserving meats and pickling vegetables are more commonly used.\n- Pickled vegetables: Yancai (腌菜), fresh vegetables dried without sunlight, then salt Key details: evidence from [baseline_chunk_2138].",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -2322,10 +2322,10 @@
   {
     "id": "041",
     "question": "Describe the 'Duck stuffed with glutinous rice' dish from Hakka cuisine.",
-    "answer": "The 'Duck stuffed with glutinous rice' dish from Hakka cuisine typically involves removing the bones from a whole duck and filling it with seasoned sticky rice. This dish can be found in various forms such as tube rice pudding, steamed sticky rice pastry, and red bean flour noodles.",
+    "answer": "Conclusion: ### Conclusion:\nThe 'Duck stuffed with glutinous rice' dish from Hakka cuisine consists of a whole duck with the shape of the bird maintained, and the cavities filled with seasoned sticky rice. It can be prepared by removing the bones from a whole duck and filling the cavities with seasoned sticky rice. The dish is typically served steamed in a bamboo tube. Key details: evidence from [baseline_chunk_2186].",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -2380,10 +2380,10 @@
   {
     "id": "042",
     "question": "What are the components used to prepare 'Lei Cha' powder according to the Hakka guide?",
-    "answer": "To prepare Lei Cha powder according to the Hakka guide:\n\n- Green tea leaves are pounded or ground into a fine powder.\n- Peanuts, mint leaves, sesame seeds, and mung beans are added.\n- These ingredients are mixed as a drink or dietary brew to be taken with rice and other vegetarian side dishes.",
+    "answer": "Conclusion: Lei Cha powder is prepared by pounding or grinding various ingredients such as tea leaves, peanuts, mint leaves, sesame seeds, mung beans, and other herbs into a fine powder. It can be consumed either as a drink or as a dietary brew. The key components include tea leaves, peanuts, mint leaves, sesame seeds, mung beans, and other herbs. Additionally, the use of Sichuan pepper in soups and fried foods is mentioned.",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -2438,10 +2438,10 @@
   {
     "id": "043",
     "question": "According to the overview, what are the four most influential styles of Chinese cuisine?",
-    "answer": "The four most influential styles of Chinese cuisine according to the overview are Cantonese cuisine, Sichuan cuisine, Shandong cuisine, and Zhejiang cuisine.",
+    "answer": "Conclusion: Key details:\n- The four most influential regional schools (四大菜系) that dominate the culinary heritage of China, along with Cantonese cuisine, Shandong cuisine and Sichuan cuisine.\n- There are numerous regional, religious, and ethnic styles of Chinese cuisine found within China and abroad.\n- Chinese cuisine is highly diverse and most frequently categorized into provincial divisions, although these province-level classifications consist of many more styles within themselves.\n- During the Qing dynasty, the most praised Four Great Traditions in Chinese cuisine were Chuan, Lu, Yue, and Zhejiang.\n- Chinese cuisine exhibits an immense amount of regional diversity. A number Key details: evidence from [baseline_chunk_352].",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -2496,10 +2496,10 @@
   {
     "id": "044",
     "question": "How is 'Taro Fish' served according to the procedure?",
-    "answer": "Taro fish is typically served raw, often as a side dish. It's usually prepared by first peeling and chopping the taro into small pieces, then steam cooking it until soft. After that, it's mixed with vegetable stock and seasoned with soy sauce, black bean paste, and other ingredients. For garnishing, you might use nori sheets soaked in nori seaweed broth, which gives the fish a unique texture.",
+    "answer": "Conclusion: Taro fish is typically served in a nori sheet, cut into fish fins, and mixed with green pepper, ginger, and spring onions. It's often deep-fried or deep-fried and steamed with rice wine and white pepper.",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -2554,10 +2554,10 @@
   {
     "id": "045",
     "question": "What was the 'first Hong Kong Inventory of Intangible Cultural Heritage' item listed in 2014 related to cuisine?",
-    "answer": "The 'first Hong Kong Inventory of Intangible Cultural Heritage' item listed in 2014 related to cuisine was the Hakka food.",
+    "answer": "Conclusion: The 'first Hong Kong Inventory of Intangible Cultural Heritage' item listed in 2014 related to cuisine was the Hakka food. It was served in Hakka restaurants in the United States and Canada.",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -2612,10 +2612,10 @@
   {
     "id": "046",
     "question": "What is 'Maotai' and where is it produced?",
-    "answer": "Maotai is a premium baijiu produced in Guizhou, China. It is known for its unique flavor profile and is often paired with preserved vegetables and steamed cured meat.",
+    "answer": "Conclusion: Key details:\nMaotai is a premium baijiu produced in Guizhou, China. It is known for its high quality and is often used in traditional Chinese cuisine. The production process involves preserving vegetables and curing meats to match the flavor of the local liquor. Some other popular brands include Kang, Lu Zhou Te Qu, and Wu Liang Ye. Key details: evidence from [baseline_chunk_2141].",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -2670,10 +2670,10 @@
   {
     "id": "047",
     "question": "What are the two items traditionally used to drain Cream Cheese Wontons after frying?",
-    "answer": "The two items traditionally used to drain Cream Cheese Wontons after frying are the sides of the wrappers, specifically the sides nearest the cream cheese.",
+    "answer": "Conclusion: The two items traditionally used to drain Cream Cheese Wontons after frying are the two sides nearest the cream cheese. They are wetted with oil and folded down, sealed with a tight seal, leaving small gaps at the corners to prevent expansion.",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -2728,10 +2728,10 @@
   {
     "id": "048",
     "question": "Describe the difference between the salty and sweet versions of Hakka steamed buns (tea fruit).",
-    "answer": "The sweet version of Hakka steamed buns (tea fruit) is typically filled with sweetened black-eyed pea paste or other sweet fillings.",
+    "answer": "Conclusion: ### Conclusion:\nThe main difference between the salty and sweet versions of Hakka steamed buns (tea fruit) lies in their sweetness levels. The sweet version is typically filled with sweetened black-eyed pea paste or other sweet ingredients, while the salty version is filled with salted kiu nyuk or other savory fillings. The sweet version is generally considered to be sweeter than the salty version due to its higher sugar content, which results in a softer, fluffier texture when steamed. Key details: evidence from [baseline_chunk_2179].",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -2786,10 +2786,10 @@
   {
     "id": "049",
     "question": "What are the main ingredients for a clear 'Beef meatball soup' in Hakka cuisine?",
-    "answer": "The main ingredients for a clear 'Beef meatball soup' in Hakka cuisine include beef meatballs, beef meatballs, beef meatballs, beef meatballs, beef meatballs, beef meatballs, beef meatballs, beef meatballs, beef meatballs, beef meatballs, beef meatballs, beef meatballs, beef meatballs, beef meatballs, beef meatballs, beef meatballs, beef meatballs, beef meatballs, beef meatballs, beef meatballs, beef meatballs, beef meatballs, beef meatballs, beef meatballs, beef meatballs, beef meatballs, beef meatballs, beef meat",
+    "answer": "Conclusion: Key details:\n- Beef meatball soup\n- Beef meatballs\n- Beef meatballs\n- Beef meatballs\n- Beef meatballs\n- Beef meatballs\n- Beef meatballs\n- Beef meatballs\n- Beef meatballs\n- Beef meatballs\n- Beef meatballs\n- Beef meatballs\n- Beef meatballs\n- Beef meatballs\n- Beef meatballs\n- Beef meatballs\n- Beef meatballs\n- Beef meatballs\n- Beef meatballs\n- Beef meatballs\n- Beef meatballs\n- Beef meatballs\n- Beef meatballs\n- Beef meatballs\n- Beef meatballs Key details: evidence from [baseline_chunk_2184].",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -2844,10 +2844,10 @@
   {
     "id": "050",
     "question": "In Guizhou cuisine, what is 'Siwawa'?",
-    "answer": "Spicy dipping sauce (蘸水; zhàn shuǐ) is crucial in daily dining of Guizhou people. It is made by mixing chili pepper, garlic, ginger, green scallion, sesame oil or soy sauce, according to personal preference. One unique ingredient used in Guizhou dipping sauce is Houttuynia (折耳根/鱼腥草; 折耳根/魚腥草; zhéěrgēn/yúxīng cǎo), which is loved by local people but not commonly accepted by other Chinese.",
+    "answer": "Conclusion: Key details:\n- 'Siwawa' is a dish in Guizhou cuisine.\n- It's a mixed sour-and-spicy flavor.\n- Originated from the Miao people.\n- Representative of Guizhou cuisine.\n- Known for its unique sourness due to local fermented vegetable practices. Key details: evidence from [baseline_chunk_2137].",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -2902,10 +2902,10 @@
   {
     "id": "051",
     "question": "What unique skill is required of Teochew chefs regarding banquet decorations?",
-    "answer": "Teochew chefs require unique skills of vegetable carving to use carved vegetables as garnishes on cold dishes and on the banquet table.",
+    "answer": "Conclusion: Key details: \nTeochew chefs take pride in their skills of vegetable carving, and carved vegetables are used as garnishes on cold dishes and on the banquet table.\nConclusion: Teochew chefs require a unique skill of vegetable carving to decorate their banquets effectively. Key details: evidence from [baseline_chunk_2003].",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -2960,10 +2960,10 @@
   {
     "id": "052",
     "question": "According to the Hakka cuisine notes, what refers to 'fried fish maw slices and okra to chili peppers'?",
-    "answer": "fried fish maw slices and okra to chili peppers",
+    "answer": "Conclusion: Key details: fried fish maw slices and okra to chili peppers\n\nConclusion: According to the Hakka cuisine notes, \"fried fish maw slices and okra to chili peppers\" refer to stir-fried meat with douchi and chili peppers. Key details: evidence from [baseline_chunk_2193].",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -3018,10 +3018,10 @@
   {
     "id": "053",
     "question": "How do guests prepare for a Teochew 'jiat dot' feast in terms of appearance?",
-    "answer": "When guests go to jiat dot, they must be neatly dressed, with clean hats and footwear. In earlier times, men were expected to wear long gowns and felt hats, while women would comb their hair carefully, apply light makeup, and wear ruyi hairpins (如意發簪). If one’s clothing is untidy, speech improper, posture careless, or behavior lacking decorum, others will feel that you do not understand proper etiquette.",
+    "answer": "Conclusion: Key details:\n- Guests must be neatly dressed and have clean hats and footwear.\n- Men wore long gowns and felt hats, while women comb their hair carefully, apply light makeup, and wear ruyi hairpins.\n- Un整洁的服装、口音不正确、举止粗鲁或行为失礼,他人会认为你不懂规矩。\n- 当客人去到jiat dot时,他们必须穿着整齐,戴好帽子和鞋子。在以前,男士穿长袍和毛线帽,而女士梳发并轻描淡写地化妆,并佩戴如意发簪。如果他们的着装不整洁, Key details: evidence from [baseline_chunk_1999].",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -3076,10 +3076,10 @@
   {
     "id": "054",
     "question": "What is 'Lao Gan Ma' and where did it originate?",
-    "answer": "Lao Gan Ma originates from Guizhou province, China.",
+    "answer": "Conclusion: Key details:\n- Name: Lou Mei\n- Origin: Southern Chinese regions\n\nConclusion: Lou Mei is a type of dish made from internal organs, entrails, and other left-over parts of animals. It is commonly available in southern Chinese regions. Key details: evidence from [baseline_chunk_2148].",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -3134,10 +3134,10 @@
   {
     "id": "055",
     "question": "What is the primary protein source for the 'Braised pork trotter' in Hakka cuisine and what spices are used?",
-    "answer": "The primary protein source for the 'Braised pork trotter' in Hakka cuisine is pork. Spices used include star anise, five spice powder, shallots, garlic, dark soy sauce, light soy sauce, and rice wine.",
+    "answer": "Conclusion: The primary protein source for the 'Braised pork trotter' in Hakka cuisine is pork. Spices used include star anise, five spice powder, shallots, garlic, dark soy sauce, light soy sauce, and rice wine. Key details: evidence from [baseline_chunk_6629].",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -3192,10 +3192,10 @@
   {
     "id": "056",
     "question": "In the Cream Cheese Wonton procedure, what should you do while the oil is heating?",
-    "answer": "While the oil is heating, keep your hands dry and use a small bowl of water to wet your fingers.",
+    "answer": "Conclusion: While the oil is heating, you should use your fingers to wet the two edges nearest the cream cheese, fold the other half down and seal the edges, making a triangle shape. Seal the edges tightly, but try to leave small gaps at the corners so the triangles won't expand and burst.",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -3250,10 +3250,10 @@
   {
     "id": "057",
     "question": "What is 'changwang noodles' in Guizhou cuisine made of?",
-    "answer": "Changwang noodles, also known as肠旺面 (cháng wàng miàn), is a type of Guizhou cuisine noodle dish. It typically consists of deep-fried pig intestines, which are often marinated with soy sauce, vinegar, sugar, or sweet wine before being deep-fried and served with spicy chili oil. This dish is particularly popular in Xi'an and can be enjoyed as a casual snack or as part of a meal.",
+    "answer": "Conclusion: Key details:\nChangwang noodles is a type of noodle dish in Guizhou cuisine. It typically consists of deep-fried pig intestates and blood, seasoned with chili oil, vinegar, and sugar or sweet wine. It can also be used as a snack or casual meal. \n\nConclusion: Changwang noodles is a type of noodle dish in Guizhou cuisine that involves deep-frying pig intestates and blood, seasoned with chili oil, vinegar, and sugar or sweet wine. It can be used as a snack or casual meal. Key details: evidence from [baseline_chunk_2152].",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -3308,10 +3308,10 @@
   {
     "id": "058",
     "question": "How is 'lei cha' served in Malaysian multicultural contexts?",
-    "answer": "Lei Cha is a traditional Malaysian dish that combines elements of Chinese and Thai cuisines. It consists of a mixture of vegetables and beans, often served with rice and other vegetarian sides. While its origins are rooted in Southeast Asia, it has gained popularity in multicultural Malaysia, particularly in areas with significant Chinese and Indian populations.",
+    "answer": "Conclusion: Lei Cha is served in Malaysian multicultural contexts through various variations, including wet and dry forms, and is often accompanied by char siu (barbecued pork) and a special unsweetened chili sauce.",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -3366,10 +3366,10 @@
   {
     "id": "059",
     "question": "Explain the step of frying the taro fish mixture after it's rolled in nori.",
-    "answer": "To prepare the taro fish mixture, steam the taro until soft. Then, soak black beans in a little water. Next, mash the taro with vegetable stock powder. Place 2 sheets of nori on the bench, moistened to join them together. Roll the nori sheets over the top. Cut the nori at one end to resemble fish fins. Cut the nori at one end to resemble fish fins. Slice green pepper, ginger, and spring onions into thin strips and stir-fry for a few minutes. Add the Shaoxing wine and black beans. Make cuts halfway through the taro fish at about",
+    "answer": "Conclusion: ### Conclusion:\n\nThe key steps involved in frying the taro fish mixture after it has been rolled in nori include:\n\n1. **Steam the taro**: This step helps to soften the taro before adding it to the nori mixture.\n \n2. **Soak black beans**: Black beans provide additional flavor and texture to the nori mixture.\n\n3. **Mix the taro mixture**: Combine the mashed taro with vegetable stock powder and mix well.\n\n4. **Roll the nori sheets**: Use the nori sheets to form the taro fish strands, ensuring they are evenly distributed.\n\n5. **Cut the nori Key details: evidence from [baseline_chunk_6716].",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {
@@ -3424,10 +3424,10 @@
   {
     "id": "060",
     "question": "What are 'Poon Choi' and 'Salt-baked chicken' in the context of Hong Kong Hakka cooking?",
-    "answer": "In Hong Kong, Poon Choi (盆菜; pén cài) and Salt-baked Chicken (鹽焗雞; yán jú jī) are traditional dishes that originated from the Hakka cuisine. These dishes are characterized by their light seasoning and use of salt, which adds a subtle flavor without overpowering the flavors of the ingredients.",
+    "answer": "Conclusion: Poon Choi is a type of offal, while Salt-baked Chicken is a dish from the Hakka cuisine in Hong Kong. Both dishes are characterized by their use of preserved meat and are popular in Hakka cuisine.",
     "generation_backend": "qwen",
-    "variant_id": "G0",
-    "prompt_id": "baseline",
+    "variant_id": "G3",
+    "prompt_id": "structured_answer",
     "postprocess_id": "none",
     "retrieved": [
       {

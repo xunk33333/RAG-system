@@ -256,7 +256,7 @@ class QwenGenerator:
         self.prompt_id = prompt_id
         self.enable_postprocess = enable_postprocess
         self._tokenizer = AutoTokenizer.from_pretrained(model_id)
-        self._model = AutoModelForCausalLM.from_pretrained(model_id)
+        self._model = AutoModelForCausalLM.from_pretrained(model_id, torch_dtype="auto", device_map="auto")
 
     def generate(self, query: str, retrieved_chunks: list[dict[str, Any]]) -> GenerationResult:
         prompt = build_prompt(query, retrieved_chunks, prompt_id=self.prompt_id)
@@ -269,7 +269,7 @@ class QwenGenerator:
             )
         else:
             text = prompt
-        model_inputs = self._tokenizer([text], return_tensors="pt")
+        model_inputs = self._tokenizer([text], return_tensors="pt").to("cuda")
         generated_ids = self._model.generate(
             **model_inputs,
             max_new_tokens=self.max_new_tokens,
