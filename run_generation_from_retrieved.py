@@ -114,20 +114,27 @@ def run_variant(
 
 def main() -> None:
     args = parse_args()
-    for embedding in ["baseline","openai","bge_base","bge_large"]:
-        if embedding.__eq__("baseline"):
+    for strategy in ["openai_no_rerank","openai_rerank"]:
+        if strategy.__eq__("baseline"):
             args.input = "./retrieved_baseline_results.json"
             args.output_dir = "baseline"
-        elif embedding.__eq__("openai"):
+        elif strategy.__eq__("openai"):
             args.input = "./retrieved_openai_results.json"
             args.output_dir = "openai"
-        elif embedding.__eq__("bge_base"):
+        elif strategy.__eq__("bge_base"):
             args.input = "./retrieved_bge_base_results.json"
             args.output_dir = "bge_base"
-        elif embedding.__eq__("bge_large"):
+        elif strategy.__eq__("bge_large"):
             args.input = "./retrieved_bge_large_results.json"
             args.output_dir = "bge_large"
-        
+        elif strategy.__eq__("openai_no_rerank"):
+            args.input = "./retrieved_openai_no_rerank_results.json"
+            args.output_dir = "openai_no_rerank"
+        elif strategy.__eq__("openai_rerank"):
+            args.input = "./retrieved_openai_rerank_results.json"
+            args.output_dir = "openai_rerank"
+        else:
+            raise ValueError(f"Unknown strategy: {strategy}")
         rows = load_retrieved_rows(args.input)
         out_dir = Path(args.output_dir)
         out_dir.mkdir(parents=True, exist_ok=True)
