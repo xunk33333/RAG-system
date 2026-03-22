@@ -5,7 +5,7 @@ import warnings
 from dataclasses import dataclass
 from typing import Any, Protocol
 
-from .text_utils import first_sentence, normalize_text, split_sentences, tokenize
+from text_utils import first_sentence, normalize_text, split_sentences, tokenize
 
 DEFAULT_QWEN_MODEL_ID = "Qwen/Qwen2.5-0.5B-Instruct"
 STANDARD_UNCERTAINTY_ANSWER = "I do not have enough evidence in the retrieved context to answer confidently."

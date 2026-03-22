@@ -4,8 +4,8 @@ import argparse
 from pathlib import Path
 from typing import Any
 
-from .generation import DEFAULT_QWEN_MODEL_ID, build_generator
-from .text_utils import load_json, write_json
+from generation import DEFAULT_QWEN_MODEL_ID, build_generator
+from text_utils import load_json, write_json
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
@@ -114,32 +114,46 @@ def run_variant(
 
 def main() -> None:
     args = parse_args()
-    rows = load_retrieved_rows(args.input)
-    out_dir = Path(args.output_dir)
-    out_dir.mkdir(parents=True, exist_ok=True)
+    for embedding in ["baseline","openai","bge_base","bge_large"]:
+        if embedding.__eq__("baseline"):
+            args.input = "./retrieved_baseline_results.json"
+            args.output_dir = "baseline"
+        elif embedding.__eq__("openai"):
+            args.input = "./retrieved_openai_results.json"
+            args.output_dir = "openai"
+        elif embedding.__eq__("bge_base"):
+            args.input = "./retrieved_bge_base_results.json"
+            args.output_dir = "bge_base"
+        elif embedding.__eq__("bge_large"):
+            args.input = "./retrieved_bge_large_results.json"
+            args.output_dir = "bge_large"
+        
+        rows = load_retrieved_rows(args.input)
+        out_dir = Path(args.output_dir)
+        out_dir.mkdir(parents=True, exist_ok=True)
 
-    variants = [
-        ("G0", "baseline", False),
-        ("G1", "evidence_constrained", False),
-        ("G2", "uncertainty_gated", False),
-        ("G3", "structured_answer", False),
-        ("G4", args.g4_prompt_id, True),
-    ]
+        variants = [
+            ("G0", "baseline", False),
+            ("G1", "evidence_constrained", False),
+            ("G2", "uncertainty_gated", False),
+            ("G3", "structured_answer", False),
+            ("G4", args.g4_prompt_id, True),
+        ]
 
-    for variant_id, prompt_id, enable_postprocess in variants:
-        outputs = run_variant(
-            rows=rows,
-            variant_id=variant_id,
-            prompt_id=prompt_id,
-            enable_postprocess=enable_postprocess,
-            strict_qwen=args.strict_qwen,
-            qwen_model_id=args.qwen_model_id,
-            qwen_max_new_tokens=args.qwen_max_new_tokens,
-            qwen_temperature=args.qwen_temperature,
-        )
-        out_path = out_dir / f"predictions.gen.{variant_id}.json"
-        write_json(out_path, outputs)
-        print(f"{variant_id}: saved {len(outputs)} rows -> {out_path}")
+        for variant_id, prompt_id, enable_postprocess in variants:
+            outputs = run_variant(
+                rows=rows,
+                variant_id=variant_id,
+                prompt_id=prompt_id,
+                enable_postprocess=enable_postprocess,
+                strict_qwen=args.strict_qwen,
+                qwen_model_id=args.qwen_model_id,
+                qwen_max_new_tokens=args.qwen_max_new_tokens,
+                qwen_temperature=args.qwen_temperature,
+            )
+            out_path = out_dir / f"predictions.gen.{variant_id}.json"
+            write_json(out_path, outputs)
+            print(f"{variant_id}: saved {len(outputs)} rows -> {out_path}")
 
 
 if __name__ == "__main__":
